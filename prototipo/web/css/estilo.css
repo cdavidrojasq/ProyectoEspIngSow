@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/11/2014, 06:30:23 PM
+    Author     : Rafa
+*/
+body{
+    background-color: cadetblue;
+    margin: 1% 5% 10% 10%;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+#cabecera{
+    text-align: center;
+    vertical-align: central;
+    padding: 6%;
+    font-style: oblique;
+    background-color: white;
+    background-image: url('../imagenes/logo.jpg');
+    background-repeat: no-repeat;
+    width: 88%;
+}
+
+#contenedor_global{
+    background-color: white;
+}
+
+#menu_lateral{
+    background-color: darkgray;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    padding: 3%;
+    text-decoration: none;
+}
+#menu_lateral a:hover{
+    background-color: gray; 
+}
+#menu{
+    //background-color: blue; 
+    list-style: none;
+}
+#contenedor{
+    margin: 1% 1% 1% 1%;
+    margin-left: 1%;
+    //padding: 15%;
+    text-align: center;
+    position: static;
+}
+li{
+ margin-top: 10%;
+ background-color: white;
+ text-decoration: none;
+ width: 100%;
+}
+a{
+    display: block;
+    padding: 10px;
+}
+#menu_insertar{
+    background-color: white;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    padding: 3%;
+    text-decoration: none;
+    width: 30%;
+}
+#menu_insertar li:hover{
+    background-color: gray; 
+    
+}
+#menu2 li {
+    margin-top: 10%;
+ background-color: gray;
+ text-decoration: none;
+ width: 100%;
+}
